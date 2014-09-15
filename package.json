@@ -1,0 +1,37 @@
+{
+  "name": "bootstrap",
+  "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+  "tag-version": "2.3.2",
+  "version": "1.0.0",
+  "keywords": [
+    "bootstrap",
+    "css",
+	"flat UI"
+  ],
+  "homepage": "http://newaeonweb.com.br/",
+  "author": "Fernando Monteiro.",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newaeonweb/krack-bootstrap.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-recess": "^1.0.0",
+	"grunt-hogan": "0.3.0",  
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^1.0.0"
+  }
+}
+
